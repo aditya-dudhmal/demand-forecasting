@@ -1,0 +1,7 @@
+Demand forecasting — 12-month holdout (1960)
+
+Seasonal naive (baseline): RMSE 50.7   MAPE 10.0%
+SARIMA(1,1,1)(1,1,1,12): RMSE 21.2   MAPE 3.7%
+Random forest (lag features): RMSE 33.7   MAPE 4.8%
+
+Best by RMSE: SARIMA(1,1,1)(1,1,1,12) (21.2)
